@@ -51,8 +51,7 @@ section h2 abbr{
 
 .container{
     columns: 2 250px;
-    /* column-rule: 3px solid black;
-    border: 1px dashed black; */
+    /* column-rule: 3px solid black; */
     padding-left: 1rem;
     padding-right: 1rem; 
 }
@@ -110,6 +109,8 @@ section.section-4{
 }
 
 section div.circle{
+    top: 0px;
+    left: 0px;
     line-height: 1.5;
     width: 200px;
     height: 200px;
@@ -117,6 +118,7 @@ section div.circle{
     border-radius: 50%; /* Make it perfectly round */
     color: white; /* Text color */
     padding: 25px;
+    
  
 }
 
