@@ -51,8 +51,8 @@ section h2 abbr{
 
 .container{
     columns: 2 250px;
-    /* column-rule: 3px solid black;
-    border: 1px dashed black; */
+    column-rule: 3px solid black;
+    border: 1px dashed black;
     padding-left: 1rem;
     padding-right: 1rem; 
 }
