@@ -70,7 +70,7 @@ section h2 abbr{
     margin-right: 50px;
 }
 
-section div.topicarea{
+section article.topicarea{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
