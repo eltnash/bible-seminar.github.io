@@ -1,0 +1,173 @@
+
+body{
+    min-height: 100vh;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 912px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightgrey;
+    border: 1px solid black;
+    text-align: center;
+}
+
+
+header{
+    text-align: center;
+    /* border: 1px dashed black; */
+    background-color: hsl(200, 41%, 42%);
+}
+
+header h1{
+    font-size: 3rem;
+    margin-bottom: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+section h2{
+    margin-top: 0;
+ 
+}
+
+main{
+    background-color: hsl(200, 41%, 42%);
+    /* height: 720px; */
+}
+
+
+section h2 abbr{
+    text-decoration: none;
+}
+
+
+.gold {
+    color: rgb(239, 174, 11);
+}
+
+.dark-blue {
+    color: darkblue;
+}
+
+.container{
+    columns: 2 250px;
+    /* column-rule: 3px solid black;
+    border: 1px dashed black; */
+    padding-left: 1rem;
+    padding-right: 1rem; 
+}
+
+
+
+.section{
+    border: 1px solid blue;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 255, 0.5); /* Blue shadow */
+    background-color: whitesmoke;
+    width: 70%;
+    font-size: 1rem;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+section div.topicarea{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    break-inside: avoid;
+    margin-top: 0;
+    margin-bottom: 20px;  
+}
+
+
+
+section.section-2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+section.section-3{
+    margin-bottom: 20px;
+}
+
+div.guests{
+    /* border: 1px dashed black; */
+    break-inside: avoid;
+}
+
+section.section-4{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    break-inside: avoid;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    font-size: 1.5rem; 
+}
+
+section div.circle{
+    line-height: 1.5;
+    width: 200px;
+    height: 200px;
+    background-color: darkblue;
+    border-radius: 50%; /* Make it perfectly round */
+    color: white; /* Text color */
+    padding: 25px;
+ 
+}
+
+#program{
+    margin-bottom: 0.5rem;
+}
+
+div.section-5{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* border: 1px dashed black; */
+    margin-bottom: 61px;
+    /* margin-top: 57px; */
+}
+
+figure.lecturers{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+
+ul{
+    margin-top: 0;
+    list-style-type:none;
+    padding: 0;
+}
+
+ul li:nth-child(-1){
+    text-indent: 1rem;
+}
+
+footer{
+    width: 100%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    background-color:darkblue;
+    margin-top: 0;
+}
+
+footer p a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#time{
+    color: gold ;
+    
+}
+
+#venue{
+    color: whitesmoke;
+}
