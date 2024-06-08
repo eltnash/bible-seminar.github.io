@@ -14,7 +14,7 @@ body{
 
 header{
     text-align: center;
-    border: 1px dashed black;
+    /* border: 1px dashed black; */
     background-color: hsl(200, 41%, 42%);
 }
 
