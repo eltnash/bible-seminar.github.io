@@ -42,6 +42,7 @@ main{
     background-color: hsl(200, 41%, 42%);
     /* height: 720px; */
     min-height: 100vh;
+    /* padding-bottom: 50px; */
 }
 
 
@@ -152,6 +153,10 @@ div.section-5{
 
 div figure figcaption{
     font-size: 1.5rem;
+}
+
+div figure:nth-child(2){
+    break-inside: avoid;
 }
 
 
