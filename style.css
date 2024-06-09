@@ -1,9 +1,7 @@
 
 body{
-    /* min-height: 100vh; */
     margin-top: 0;
     margin-bottom: 0;
-    /* max-width: 912px; */
     margin-left: auto;
     margin-right: auto;
     background-color: lightgrey;
@@ -14,7 +12,6 @@ body{
 
 header{
     text-align: center;
-    /* border: 1px dashed black; */
     background-color: hsl(200, 41%, 42%);
     padding-bottom: 70px;
     padding-top: 20px;
@@ -40,9 +37,7 @@ section h2{
 
 main{
     background-color: hsl(200, 41%, 42%);
-    /* height: 720px; */
     min-height: 100vh;
-    /* padding-bottom: 50px; */
 }
 
 
@@ -64,7 +59,6 @@ section h2 abbr{
     margin-left: auto;
     margin-right: auto;
     columns: 2 500px;
-    /* column-rule: 3px solid black; */
     padding-left: 1rem;
     padding-right: 1rem; 
 }
@@ -105,7 +99,6 @@ section.section-3{
 }
 
 div.guests{
-    /* border: 1px dashed black; */
     break-inside: avoid;    
 }
 
@@ -146,9 +139,7 @@ div.section-5{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* border: 1px dashed black; */
     margin-bottom: 61px;
-    /* margin-top: 57px; */
 }
 
 div figure figcaption{
