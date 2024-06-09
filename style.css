@@ -40,6 +40,10 @@ main{
     min-height: 100vh;
 }
 
+main section div h2{
+    font-size: 2.5rem;
+}
+
 
 section h2 abbr{
     text-decoration: none;
@@ -127,6 +131,8 @@ section div.circle{
     border-radius: 50%; /* Make it perfectly round */
     color: white; /* Text color */
     padding: 25px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
     
  
 }
