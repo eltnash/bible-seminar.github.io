@@ -102,7 +102,9 @@ section.section-3{
 }
 
 div.guests{
-    break-inside: avoid;    
+    break-inside: avoid;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 div h3{
@@ -130,7 +132,7 @@ section div.circle{
     border-radius: 50%; /* Make it perfectly round */
     color: white; /* Text color */
     padding: 25px;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
     margin-top: 2rem;
     
  
